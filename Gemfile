@@ -32,6 +32,9 @@ gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
 gem 'simple_form'
 
+# don't need to specify developmet because as default profiler will work in development only
+gem 'rack-mini-profiler'
+
 group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
